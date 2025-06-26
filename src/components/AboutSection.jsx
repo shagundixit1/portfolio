@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { Briefcase, Code, Server, User } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -12,13 +12,13 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Passionate Web Developer & Tech Enthusiast
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
+              With over 2 years of experience in web development, I specialize
               in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              applications using modern technologies and now I am Learning DevOps too.
             </p>
 
             <p className="text-muted-foreground">
@@ -35,10 +35,10 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="Shagun_Resume2.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Download CV
+                See my resume
               </a>
             </div>
           </div>
@@ -68,6 +68,19 @@ export const AboutSection = () => {
                   <p className="text-muted-foreground">
                     Designing intuitive user interfaces and seamless user
                     experiences.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Server className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">DevOps</h4>
+                  <p className="text-muted-foreground">
+                    Automating deployments, managing infrastructure, and ensuring CI/CD pipelines.
                   </p>
                 </div>
               </div>
